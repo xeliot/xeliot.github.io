@@ -1,0 +1,164 @@
+$default-font: 'Roboto', sans-serif;;
+$source-font: 'Lato', sans-serif;;
+
+
+body {
+  font-size: 16px;
+  line-height: 1.56;
+  font-family: $default-font;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.25;
+  font-weight: 700;
+  font-family: $source-font;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: $source-font;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: $source-font;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 700;
+  font-family: $source-font;
+}
+
+.site-btn {
+  font-size: 12px;
+  line-height: 1.66;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $source-font;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: $source-font;
+  font-weight: 700;
+}
+
+.main-menu {
+  ul {
+    li {
+      a {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: $source-font;
+        font-weight: 700;
+        line-height: 1.66;
+      }
+    }
+  }
+}
+
+.colored-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: $source-font;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.about-me-info {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.fonts-icons {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.span-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: $source-font;
+  line-height: 1.66;
+}
+
+.portfolio-sort {
+  ul {
+    li {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-family: $source-font;
+      font-weight: 700;
+      line-height: 1.66;
+    }
+  }
+}
+
+.portfolio-box {
+
+  .portfolio-name {
+    font-weight: 700;
+    font-family: $source-font;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}
+
+.form-wrapper {
+  input[type=text],
+  input[type=email] {
+    font-size: 14px;
+    font-family: $source-font;
+    line-height: 1.4;
+  }
+
+  textarea {
+    font-size: 14px;
+    font-family: $source-font;
+    line-height: 1.4;
+  }
+
+  .custom-select-box {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $source-font;
+    line-height: 1.4;
+  }
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+.mobile-menu {
+  ul {
+    li {
+      a {
+        font-size: 12px;
+        font-family: $source-font;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.66;
+      }
+    }
+  }
+}
+
+.modal-body {
+
+  .modal-title {
+    line-height: 1.35;
+    font-weight: 700;
+    font-family: $source-font;
+  }
+}

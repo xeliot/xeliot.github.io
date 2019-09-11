@@ -1,0 +1,132 @@
+$accent-color: #3333ff;
+$active-color: #3333ff;
+$text-color: #252525;
+
+body {
+  color: $text-color;
+}
+
+.site-btn {
+  background: $accent-color;
+
+  &.gray-btn {
+    color: $text-color;
+
+    &:hover,
+    &.hover {
+      box-shadow: 10px 10px 20px rgba(#252525, 0.2);
+      color: $text-color;
+    }
+
+    &:active,
+    &.active {
+      background: #c7c7c7;
+      box-shadow: 10px 10px 20px rgba(#252525, 0.2);
+    }
+  }
+
+  &:hover,
+  &.hover {
+    box-shadow: 10px 10px 20px rgba($accent-color, 0.2);
+  }
+
+  &:active,
+  &.active {
+    background: $active-color;
+    box-shadow: 10px 10px 20px rgba($active-color, 0.2);
+  }
+}
+
+.point:after {
+  color: $accent-color;
+}
+
+.main-menu {
+  ul {
+    li {
+      a:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.colored-link {
+
+  &:hover, &:active,
+  &.hover, &.active{
+    color: $accent-color;
+  }
+}
+
+.mixitup-control-active{
+  color: $accent-color;
+}
+
+a.fonts-icons {
+  &:hover,
+  &.hover {
+    color: $accent-color;
+  }
+  &:active,
+  &.active {
+    color: $accent-color;
+  }
+}
+
+.portfolio-box {
+
+  &:hover, &.hover,
+  &:active, &.active {
+
+    .portfolio-name {
+      color: $accent-color;
+    }
+  }
+}
+
+.form-wrapper {
+  .custom-select-box {
+    .custom-select-button {
+      &:after {
+        color: $accent-color;
+      }
+    }
+  }
+
+  input[type=text],
+  input[type=email] {
+    &:hover, &:focus, &:active,
+    &.hover, &.active {
+      & + .form-validation{
+        opacity: 1;
+      }
+    }
+  }
+
+  textarea {
+    &:hover, &:focus{
+      & + .form-validation{
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.mobile-btn {
+  color: $accent-color;
+}
+
+.mob-menu-wrapper {
+  background: $accent-color;
+}
+
+.wave-bg {
+  .zigzag {
+    svg:last-child {
+      polyline {
+        stroke: $accent-color;
+      }
+    }
+  }
+}
